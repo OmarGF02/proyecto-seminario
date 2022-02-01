@@ -1,0 +1,42 @@
+.alert {
+  padding: 20px;
+  background-color: #000000;
+  color: rgb(173, 72, 72);
+  border-radius: 23px;
+}
+img{
+  height: 50px;
+  width: 50px;}
+.center {        
+    display: block;
+    margin: auto;
+    width: 30%;
+   }
+.ion-button{      
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: rgb(201, 103, 11);
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: rgb(14, 187, 121);
+}
+
+.Registrate{
+  color: var(--ion-color-tertiary);
+}
+
+.login{
+  color: var(--ion-color-tertiary);
+}

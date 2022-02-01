@@ -1,0 +1,49 @@
+ion-content {
+  --background: var(---ion-color-perzonalizado); //Aqui uso mi variable personal.
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+
+ion-slides {
+  height: 100%;
+  max-width: 800px;
+  background-color: var(--ion-color-tertiary); // Aqui uso una variable por defecto. 
+  margin:10px;
+}
+.swiper-slide {
+  display: block;
+  margin-bottom: 60px;
+  color: rgb(43, 153, 180);
+}
+
+ion-slide > h2 {
+  margin: 0 0 0 0;
+  color: rgb(11, 141, 201);
+}
+
+ion-slide > p {
+  
+  font-style: italic;
+  font-size: 22px;
+  padding: 10px 10px 10px 10px;
+  margin: 25px 25px 25px 25px;
+  color: white;
+}
+
+
+ion-slide  {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 64px 0;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+ion-slide > ion-icon[name="close"] {
+  float: right;
+  color: var(--ion-color-primary-contrast);
+  font-size: 50px;
+}

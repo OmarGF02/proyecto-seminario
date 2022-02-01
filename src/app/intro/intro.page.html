@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Intro-MIUZIK </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding-horizontal> <!-- Aqui uso una utilidad css -->
+  <ion-slides pager="true" [options]="slideOpt">
+
+    <ion-slide *ngFor="let slide of slides">
+      
+      <img src={{slide.image}} alt={{slide.alt}}/>
+      <h2>{{slide.subtitle}}</h2>
+      <p>{{slide.description}}</p>
+      <ion-icon name="{{slide.close}}" style="zoom:1.5;" (click)="finish()"></ion-icon>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content> 
